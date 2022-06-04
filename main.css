@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik:wght@700&display=swap');
+body{
+    background-color: #E0FFFF;
+    font: normal 16px 'Montserrat', sans-serif;
+    color: black;
+    word-spacing: 2px;
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+.header{
+    margin-bottom: 20px;
+    display: flex;
+}
+.header_info{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.avatar{
+    height: 250px;
+    border-radius: 30px;
+}
+
+.container{
+    padding-top: 25px;
+    max-width: 750px;
+    margin: auto;
+}
+
+.bg_red{
+    background-color: #ffe5e5;
+}
+
+.bg_yellow{
+    background-color: #fff9dc;
+}
+
+.bg_green{
+    background-color: #e5ffe7;
+}
+
+.blocks h2{
+    margin-top: 0px
+}
+.blocks{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.list{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.list li{
+    margin-bottom: 5px;
+}
+
+.tablica{
+    width: 100%;
+}
+.tablica td{
+    padding-bottom: 10px;
+}
+
+.tablica td:nth-child(1){
+    font-weight: bold;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 2px;
+}
+
+.btn{
+    border-radius: 10px;
+    background: white;
+    padding: 5px;
+    border: none;
+    padding: 10px;
+    font-family: inherit;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: blue;
+    color: white;
+    opacity: 0.8;
+}
+
+.form-group input{
+    box-sizing: border-box;
+    padding-left: 7px;
+    padding-right: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline-color: blue;
+    font-family: inherit;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
